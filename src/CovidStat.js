@@ -182,10 +182,6 @@ export default function CovidStat() {
         covidData.map((item)=>{
             totalConfirmedList.push(item.TotalConfirmed);
         })        
-
-        // console.log(countryList);
-        // console.log(totalConfirmedList);
-
         const graphState = {
             labels: countryList,
             datasets: [
